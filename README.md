@@ -1,3 +1,11 @@
+based on this repository
+for us, you can just care about:
+models/autoencoder.py, models/diffusion.py
+utils/dataset.py, utils/misc.py
+train_ae.py
+test_ae.py
+
+the other files are about generation model, we don't use them
 # Diffusion-Point-Cloud (PointCNN version)
 
 This project is based on the open source implementation of the paper [**“Diffusion Probabilistic Models for 3D Point Cloud Generation”**](https://arxiv.org/abs/2103.01458), extending its original version and replacing the **backbone** of point cloud feature extraction from **PointNet** to **PointCNN**. This version achieves better generation quality and diversity on several 3D point cloud datasets.
