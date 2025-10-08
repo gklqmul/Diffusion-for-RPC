@@ -1,0 +1,22 @@
+# === Custom ignore list for Kailu's project ===
+
+# Ignore dataset and result folders in the root directory
+/dataset/
+/latent_tsne_results/
+/logs_ae/
+/pretrained/
+/results/
+/test_logs/
+
+# Optional: ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.log
+
+# Optional: ignore environment and system files
+.env/
+.venv/
+.DS_Store
+Thumbs.db

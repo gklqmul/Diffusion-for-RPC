@@ -1,0 +1,10 @@
+num_points: 1024
+batch_size: 32
+learning_rate: 0.00001
+diffusion_steps: 1000
+model:
+  type: PointCNN
+  input_channels: 3
+  output_channels: 3
+  hidden_channels: 64
+  num_layers: 5
